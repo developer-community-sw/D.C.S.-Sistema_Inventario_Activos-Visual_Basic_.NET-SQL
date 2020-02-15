@@ -5,7 +5,7 @@ Module ConectarBD
     Public ip As String = "", user As String = "", pass As String = "", bd As String = ""
     Public conexion As SqlConnection
     Public adaptador As SqlDataAdapter
-    Public tabla As DataTable
+    Public tabla As New DataTable
 
     Public nombre As String
     Public usuario As String
@@ -55,7 +55,7 @@ Module ConectarBD
             If ip.Length = 0 Or user.Length = 0 Or pass.Length = 0 Or bd.Length = 0 Then
                 MsgBox("Faltan parametros de conexion ", vbCritical, "ERROR DE CONEXION")    
             Else
-                miconexion = New "Data Source="& ip.Trim &"; Initial Catalog="& bd.Trim &"; User Id="& user.Trim &"; Password="& pass.Trim &"; "
+                miconexion = "Data Source=" & ip.Trim & "; Initial Catalog=" & bd.Trim & "; User Id=" & user.Trim & "; Password=" & pass.Trim & "; "
             End If
         Catch ex As Exception
             MsgBox(ex.Message, MsgBoxStyle.Critical)

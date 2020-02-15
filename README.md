@@ -19,3 +19,9 @@ D.C.S | Curso Online: Udemy | Cursos: Sistema de Inventario de Activos con Visua
 - 014 Creacion de Funcion Obtener Conexion
 # 04 Configuracion Cliente Servidor
 - 015 Formulario de Configuracion de Servidor
+- 016 Formulario de Configuracion de Servidor - Boton Conectar
+- 017 Formulario de Configuracion de Servidor - Evento Load
+# 05 Login - Acceso Al sistema
+- 018 Creacion del Formulario de Inicio de Sesion
+- 019 Formulario Login - Boton Aceptar
+- 020 Ingresando al Sistema
