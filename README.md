@@ -16,3 +16,6 @@ D.C.S | Curso Online: Udemy | Cursos: Sistema de Inventario de Activos con Visua
 # 03 Conexion a la Base de Datos
 - 012 Creacion de Modulo y Variables para Conexion a BD
 - 013 Creacion de SubProceso Establecer Conexion
+- 014 Creacion de Funcion Obtener Conexion
+# 04 Configuracion Cliente Servidor
+- 015 Formulario de Configuracion de Servidor
